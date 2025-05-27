@@ -1,0 +1,27 @@
+Binary validation rule
+
+Sometimes it is hard to specify the rule for some advanced concepts in OCL. For example, the string manipulation is rather weak in OCL2.0, hence the writing rule for string formats, parsing strings is very hard in OCL. In such cases the modeling tool offers possibility to write rules in other languages and invoke them when validating.
+
+Common steps for creating a structured expression validation rule:
+
+- Create a constraint
+- Set the stereotype «UML Standard Profile::Validation Profile::validationRule» for the validation rule
+- Set the severity level, error message, and abbreviation
+- Specify constrained element(s)
+- Specify the specification language "structured expression"
+- On the left side of the dialog, click Create Operation
+- Add/import the created validation rule to a validation suite [Navigate to "Analyze-Validate-Run selected validation suite"]
+- Run validation from top tool bar or from diagram.
+
+Reset the necessary operations. And learn the built in operations from here: https://docs.nomagic.com/display/MD2024xR2/Built-in+operations
+
+Documentation: 
+- Purpose of Validation in Catia:  https://docs.nomagic.com/display/MD190/Validation
+
+- Learn how to validate elements not used in diagrams: https://docs.nomagic.com/display/MD2022x/Case+5.+Validating+Elements+Not+Used+in+Diagram
+
+- Presentation notes
+
+- mdzip file
+
+- SAIC DE Profile: https://www.saic.com/digital-engineering-validation-tool
