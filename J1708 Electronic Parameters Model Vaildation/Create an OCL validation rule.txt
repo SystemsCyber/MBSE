@@ -1,0 +1,25 @@
+To create the OCL2.0 validation rule
+
+- Create a constraint.
+- Set the stereotype «UML Standard Profile::Validation Profile::validationRule» for the validation rule.
+- Set the severity level, error message, and abbreviation.
+- Specify constrained element(s).
+- Specify the specification language OCL2.0
+- Enter the OCL2.0 expression as a body of the specification
+- Add/import the created validation rule to a validation suite [Navigate to "Analyze-Validate-Run selected validation suite"]
+
+Documentation: 
+- Purpose of Validation in Catia:  https://docs.nomagic.com/display/MD190/Validation
+
+- https://docs.nomagic.com/display/MD190/Create+OCL2.0+validation+rule
+
+- Video to understand OCL more: https://www.youtube.com/watch?v=Tzo5xHbv2CQ&list=PLySZeotMyOVJ-OlYYcrIghX2e9gS_Vok5&index=13
+
+- Presentation notes
+
+- mdzip file
+
+
+
+
+
